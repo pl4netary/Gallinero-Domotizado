@@ -1,0 +1,27 @@
+
+Versiones del programa del gallinero:
+------------------------------------
+Version | Nombre            |   Fecha	     |	Hardware
+2.0    	  gallineroV20.cpp      21/06/2019	Arduino UNO
+-Versión básica para el funcionamiento de
+ la puerta por horas que cambian a diario.
+-Vector de horas
+-Sin optimizar
+
+2.0.1	  gallineroV201.cpp	22/09/2019	Arduino UNO
+-Versión de la 2.0 pero añadida con las horas corregidas
+ para que se cierre más tarde
+-Sin optimizar
+
+2.0.1.1 gallineroV2011      05/10/2019  Arduino UNO
+-Versión anterior con el comparador para los minutos
+-Sin optimizar
+
+2.1	  gallineroV21.cpp	7/09/2019	Arduino UNO
+-Tiene añadidos los minutos de cerrar a la versión anterior
+-Sin optimizar
+
+2.2     gallineroV22.cpp    07/09/2019	Arduino UNO
+-Se despierta (sleep mode)
+ dos veces al dia por el reloj para consumir menos.
+-Sin optimizar
