@@ -23,10 +23,10 @@
   * [Botoia]()
 
 ### Eskematikoa
-![Eskematikoa](argazkiak/eskematikoa.svg "Eskematikoa")
+![Eskematikoa](eskematikoa.svg "Eskematikoa")
 
 ### Irudia
-![Irudia](argazkiak/eskematikoa_irudia.jpg "Irudia")
+![Irudia](eskematikoa_irudia.jpg "Irudia")
 
 ### Kontsumoa
 
