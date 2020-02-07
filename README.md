@@ -4,8 +4,8 @@
 ###### [Notak](NOTAK.md)
 
 ## Atalak
-  1 [Hardwarea](#hardwarea)
-  	1 [Materialak](#materialak)
+  - 1 [Hardwarea](#hardwarea)
+  	- 1 [Materialak](#materialak)
   	2 [Eskematikoa](#eskematikoa)
   	3 [Irudia](#irudia)
   	4 [Kontsumoa](#kontsumoa)
