@@ -26,7 +26,7 @@
 ![Eskematikoa](argazkiak/eskematikoa.svg "Eskematikoa")
 
 ### Irudia
-<img src="argazkiak/eskematikoa_irudia.jpg"/ width="600">
+![Irudia](argazkiak/eskematikoa_irudia.jpg "Irudia")
 
 ### Kontsumoa
 
