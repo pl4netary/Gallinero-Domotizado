@@ -4,13 +4,13 @@
 ###### [Notak](NOTAK.md)
 
 ## Atalak
-  - 1 [Hardwarea](#hardwarea)
-  	- 1 [Materialak](#materialak)
-  	2 [Eskematikoa](#eskematikoa)
-  	3 [Irudia](#irudia)
-  	4 [Kontsumoa](#kontsumoa)
-  2 [Firmwarea](#firmwarea)
-  	1 [Helburuak](#helburuak)
+  - [Hardwarea](#hardwarea)
+  	* [Materialak](#materialak)
+  	* [Eskematikoa](#eskematikoa)
+  	* [Irudia](#irudia)
+  	* [Kontsumoa](#kontsumoa)
+  - [Firmwarea](#firmwarea)
+  	* [Helburuak](#helburuak)
 
 ## Hardwarea
 
