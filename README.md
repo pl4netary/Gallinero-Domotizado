@@ -11,7 +11,7 @@
   	* [Kontsumoa](#kontsumoa)
   - [Firmwarea](#firmwarea)
   	* [Helburuak](#helburuak)
-    * [Kanpo Liburutegiak](#kanpo)
+    * [Kanpo Liburutegiak](#"kanpo liburutegiak")
     * [Funtzionamendua](#funtzionamendua)
 
 ## Hardwarea
