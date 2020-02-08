@@ -11,7 +11,7 @@
   	* [Kontsumoa](#kontsumoa)
   - [Firmwarea](#firmwarea)
   	* [Helburuak](#helburuak)
-    * [Kanpo Liburutegiak](#"kanpo liburutegiak")
+    * [Liburutegiak](#liburutegiak)
     * [Funtzionamendua](#funtzionamendua)
 
 ## Hardwarea
@@ -60,7 +60,7 @@
 * Ahalik eta sinpleen izatea funtzionamendua eta diseinua
 > Programa eta eskematikoa ia edozein pertsona ulertu behar du, baoitzak bere kabuz egin dezan.
 
-### Kanpo Liburutegiak
+### Liburutegiak
 * [DS3232RTC.h](https://github.com/JChristensen/DS3232RTC)
   Kanpo erlojua kontrolatzeko behar den liburutegia da. Oso erabilgarria eslojuaren mikrotxiparen programa guztiak kontrolatzeko.
 * [Streaming.h](http://arduiniana.org/libraries/streaming/)
