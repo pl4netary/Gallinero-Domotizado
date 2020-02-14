@@ -1,7 +1,8 @@
-# Oilategi automatizatua
+# [Oilategi automatizatua](https://github.com/pl4netary/Gallinero-Domotizado)
 ---
 ###### Hizkuntak: [euskara](./README.md), [castellano](./LEEME.md)
 ###### [Notak](NOTAK.md)
+###### [Kontaktua: planetary@tuta.io](planetary@tuta.io)
 
 ## Atalak
   - [Hardwarea](#hardwarea)
@@ -11,24 +12,42 @@
   	* [Kontsumoa](#kontsumoa)
   - [Firmwarea](#firmwarea)
   	* [Helburuak](#helburuak)
-    * [Liburutegiak](#liburutegiak)
-    * [Funtzionamendua](#funtzionamendua)
 
 ## Hardwarea
 
 ### Materialak
-  * [ESP-32 Doit Kit V1]()
-  * [Real Time Clock DS3231](https://docs.zerynth.com/latest/official/board.zerynth.doit_esp32/docs/index.html "Web horri ofiziala")
+  * [ESP-32 Doit Kit V1](https://docs.zerynth.com/latest/official/board.zerynth.doit_esp32/docs/index.html "Web orri ofiziala")
+  * [Real Time Clock DS3231](https://datasheets.maximintegrated.com/en/ds/DS3231.pdf "Datasheet")
   * [L298N H-Bridge Module](https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/ "Tutoriala")
   * [Erresistentziak]("Datasheet")
   * [Transistoreak]("Datasheet![](argazkiak/eskematikoa_irudia.jpg)")
   * [Botoia]()
 
 ### Eskematikoa
-![Eskematikoa](eskematikoa.svg "Eskematikoa")
+![Eskematikoa](argazkiak/eskematikoa.svg "Eskematikoa")
 
 ### Irudia
-![Irudia](eskematikoa_irudia.jpg "Irudia")
+![Irudia](argazkiak/eskematikoa_irudia.jpg "Irudia")
+
+### Kolore diagrama
+
+|	Izena	|	Kablearen kolorea	|	GPIO	|
+|:----------|:-----------------------:|------:|
+| FCU 		| Blanco-Azul			|GPIO12	|
+| FCD 		| Blanco-Verde			|GPIO13	|
+| MOTOR		|						|GPIO14	|
+| SDA 		| Morea					|GPIO21	|
+| SCL 		| Grisa					|GPIO22	|
+| IN2 		| Azul Oscuro			|GPIO26	|
+| IN1 		| Verde Oscuro		 	|GPIO27	|
+| RTC		|						|GPIO33	|
+
+| FCD FCU | estado |
+|:---------:|--------:|
+|	0   0   | nada |
+|	0   1   | abajo |
+|	1   0   | arriba |
+|	1   1   | en medio |
 
 ### Kontsumoa
 
@@ -60,10 +79,11 @@
 * Ahalik eta sinpleen izatea funtzionamendua eta diseinua
 > Programa eta eskematikoa ia edozein pertsona ulertu behar du, baoitzak bere kabuz egin dezan.
 
-### Liburutegiak
+### Kanpo Liburutegiak
 * [DS3232RTC.h](https://github.com/JChristensen/DS3232RTC)
   Kanpo erlojua kontrolatzeko behar den liburutegia da. Oso erabilgarria eslojuaren mikrotxiparen programa guztiak kontrolatzeko.
 * [Streaming.h](http://arduiniana.org/libraries/streaming/)
   C++ estiloa gustuko duten pertsonentzat egindako libutegia non bakarrik idazkera aldatzen da.
+* [rtc_io.h](https://github.com/espressif/arduino-esp32)
 
 ### Funtzionamendua
