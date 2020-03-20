@@ -2,7 +2,6 @@
 ---
 ###### Hizkuntak: [euskara](./README.md), [castellano](./LEEME.md)
 ###### [Notak](NOTAK.md)
-###### [Kontaktua: planetary@tuta.io](planetary@tuta.io)
 
 ## Atalak
   - [Hardwarea](#hardwarea)
@@ -87,3 +86,6 @@
 * [rtc_io.h](https://github.com/espressif/arduino-esp32)
 
 ### Funtzionamendua
+
+##### TODO
+  - Añadir un fusible en el motor
